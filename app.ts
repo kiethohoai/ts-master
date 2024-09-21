@@ -1,4 +1,13 @@
-let temp: string[];
+const person: {
+  name: string;
+  age: number;
+  hobbies: string[];
+  role: [number, string];
+} = {
+  name: "Max",
+  age: 30,
+  hobbies: ["Sports", "Cooking"],
+  role: [1, "admin"],
+};
 
-temp = ["hello", "world"];
-console.log("🚀🚀🚀  temp: ", temp);
+console.log("🚀🚀🚀  person: ", person);
