@@ -2,3 +2,4 @@
 
 Chapter 1: Start Configuration
 Chapter 2: Basic Types
+Chapter 3: Arrays & Objects
