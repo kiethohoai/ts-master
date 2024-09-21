@@ -1,14 +1,15 @@
 {
   "name": "ts-master",
   "version": "1.0.0",
-  "main": "app.js",
+  "main": "main.js",
   "devDependencies": {
     "lite-server": "^2.6.1",
     "typescript": "^5.6.2"
   },
   "scripts": {
-    "start": "lite-server",
-    "dev": "tsc --watch app.ts"
+    "sv": "lite-server",
+    "ts": "tsc -w",
+    "demo": "tsc --watch main.ts"
   },
   "author": "johnho",
   "license": "ISC",
