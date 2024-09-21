@@ -9,3 +9,4 @@
 007 Understanding Types
 008 Object Types
 009 Nested Objects & Types
+010 Arrays Types
