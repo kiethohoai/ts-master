@@ -5,3 +5,4 @@
 003 TypeScript Types vs JavaScript Types
 004 Important Type Casing
 005 Working with Numbers, Strings & Booleans
+006 Type Assignment & Type Inference
