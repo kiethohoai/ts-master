@@ -1,23 +1,19 @@
-interface Musician {
+interface Student {
   name: string;
-  instrument: string;
-  play(action: string): string;
+  GPA: number;
+  classes?: number[];
+  // [key: string]: string | number | string[] | undefined | number[];
+  // [key: string]: any;
 }
 
-class Guitarist implements Musician {
-  name: string;
-  instrument: string;
-  constructor(name: string, instrument: string) {
-    this.name = name;
-    this.instrument = instrument;
-  }
+const student: Student = {
+  name: "John",
+  GPA: 20,
+  classes: [100, 200],
+};
+console.log("🚀  student =>", student);
+// console.log("🚀  student =>", student.test);
 
-  play(action: string): string {
-    return `${this.name} ${action} the ${this.instrument}`;
-  }
+for (const key in student) {
+  console.log(`${key}: ${student[key as keyof Student]}`);
 }
-
-const Page = new Guitarist("John", "guitar");
-// console.log(Page.play("strums"));
-
-
