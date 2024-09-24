@@ -5,3 +5,4 @@ Chapter 2: Basic Types
 Chapter 3: Arrays & Objects
 Chapter 4: Functions
 Chapter 5: Assertions
+Chapter 6: Classes
