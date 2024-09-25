@@ -10,3 +10,4 @@ Chapter 7: Index Signatures & keyof Assertions
 Chapter 8: Generics
 Chapter 9: Utility Types
 Chapter 10: Vite.js + TypeScript
+Chapter 11: TypeScript Project
