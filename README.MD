@@ -8,3 +8,4 @@ Chapter 5: Assertions
 Chapter 6: Classes
 Chapter 7: Index Signatures & keyof Assertions
 Chapter 8: Generics
+Chapter 9: Utility Types
