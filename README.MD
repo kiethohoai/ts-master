@@ -11,3 +11,4 @@ Chapter 8: Generics
 Chapter 9: Utility Types
 Chapter 10: Vite.js + TypeScript
 Chapter 11: TypeScript Project
+Chapter 12: React + TypeScript
